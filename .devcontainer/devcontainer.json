@@ -1,15 +1,10 @@
 {
 	"name": "amplify-demo docker workspace",
-	"dockerComposeFile": [
-		"../docker-compose.yml",
-		"docker-compose.yml"
-	],
-	"service": "amplify",
+	"dockerComposeFile": ["../docker-compose.yml"],
+	"service": "amplify-demo",
 	"workspaceFolder": "/var/www/amplify-demo/react-app",
-
 	"settings": {
-		"terminal.integrated.shell.linux": null
+    	"terminal.integrated.shell.linux": "/bin/bash",
 	},
-
 	"extensions": []
 }
