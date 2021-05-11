@@ -2,7 +2,7 @@
 	"name": "amplify-demo docker workspace",
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "amplify",
-	"workspaceFolder": "/app/amplify-demo",
+	"workspaceFolder": "/app/amplify-demo/react-app",
 	"extensions": [],
 	"shutdownAction": "stopCompose"
 }
