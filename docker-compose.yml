@@ -5,9 +5,10 @@ services:
         volumes:
             - ./:/var/www/amplify-demo/
             - ./aws/:/root/.aws/
-            - /var/www/amplify-demo/react-app/node_modules
+            - ./:/var/www/amplify-demo/react-app/node_modules
         ports:
             - "3000:3000"
         environment:
             - CHOKIDAR_USEPOLLING=true
         tty: true
+        command: npm install
