@@ -1,10 +1,7 @@
 version: '3'
 services:
     amplify:
-        image: tanabebe/amplify-demo:latest
-        build:
-            context: .
-            dockerfile: Dockerfile
+        image: tanabebe/meet-amplify-demo:latest
         volumes:
             - ./:/var/www/amplify-demo/
             - ./aws/:/root/.aws/
