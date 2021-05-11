@@ -4,7 +4,7 @@ services:
         image: tanabebe/meet-amplify-demo:latest
         volumes:
             - /amplify-demo/react-app/node_modules
-            - ./:/app/amplify-demo/
+            - ./:/app/amplify-demo/:cached
             - ./aws/:/root/.aws/
         ports:
             - '3000:3000'
